@@ -169,8 +169,8 @@ hr {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   color: #fff;
-  background-color: #5ca9fb;
-  background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  /* background-color: #5ca9fb;*/
+  /* background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%); */
   padding: 14px 34px;
   letter-spacing: 1px;
   margin: 0;
@@ -178,7 +178,8 @@ hr {
   font-weight: 500;
   border-radius: 25px;
   transition: all 0.5s linear;
-  border: 0;
+  /* border: 0; */
+  border: 2px solid #fff;
 }
 .btn-custom:hover,
 .btn-custom:focus,
@@ -186,7 +187,7 @@ hr {
 .btn-custom:active,
 .btn-custom.active {
   color: #fff;
-  background-image: none;
+  background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
   background-color: #6372ff;
 }
 .btn:active,
@@ -236,7 +237,7 @@ a:focus,
 }
 .intro p {
   color: #fff;
-  font-size: 22px;
+  font-size: 14px;
   font-weight: 700;
   line-height: 30px;
   margin: 0 auto;
@@ -316,29 +317,36 @@ header .intro-text {
 #about .whbg {
   display: table;
   width: 100%;
-  
+  border-radius: 40px 40px 0 0;
   padding: 0;
-  background: url(https://raw.githubusercontent.com/merkletec/merkletec.github.io/master/img/IMG_2607.JPG) center center no-repeat;
+  background: url(https://raw.githubusercontent.com/merkletec/merkle.github.io/gh-pages/img/IMG_2607.JPG) center center no-repeat;
   background-color: #e5e5e5;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+  border-color: white white rgba(255, 255, 255, 0) white;
+  border-style:solid;
+    border-width:2px;
 }
 #about .overlay {
   background: rgba(0, 0, 0, 0.5);
+  border-radius: 40px 40px 0 0;
 }
 #about .flower {
   display: table;
   width: 100%;
  
   padding: 0;
-  background: url(https://raw.githubusercontent.com/merkletec/merkletec.github.io/master/img/IMG_2610.JPG) center center no-repeat;
+  background: url(https://raw.githubusercontent.com/merkletec/merkle.github.io/gh-pages/img/IMG_2610.JPG) center center no-repeat;
   background-color: #e5e5e5;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+  border-color: rgba(255, 255, 255, 0) white rgb(255, 255, 255) white;
+  border-style:solid;
+    border-width:2px;
 }
 
 
@@ -399,19 +407,28 @@ header .intro-text {
 #services .whbg {
   display: table;
   width: 100%;
-  
+  border-radius: 40px 40px 40px 40px;
   padding: 0;
-  background: url(https://raw.githubusercontent.com/merkletec/merkletec.github.io/master/img/Service-bg.JPG) center center no-repeat;
+  background: url(https://raw.githubusercontent.com/merkletec/merkle.github.io/gh-pages/img/Service-bg.JPG) center center no-repeat;
   background-color: #e5e5e5;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+  border-color: white ;
+  border-style:solid;
+  border-width:2px;
+  margin: 0px 15px 0px 15px;
 }
 #services .overlay {
   background: rgba(0, 0, 0, 0.5);
   margin-top: -10px;
+  border-radius: 40px 40px 40px 40px;
 }
+@media screen and (max-width: 500px) {
+  #services .whbg {
+    margin: 0px ;
+  }}
 
 
 /* Portfolio Section */
