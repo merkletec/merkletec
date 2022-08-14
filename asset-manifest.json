@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "./static/css/main.83b5dced.chunk.css",
-    "main.js": "./static/js/main.83b3657d.chunk.js",
-    "main.js.map": "./static/js/main.83b3657d.chunk.js.map",
-    "runtime-main.js": "./static/js/runtime-main.fc3cd5fd.js",
-    "runtime-main.js.map": "./static/js/runtime-main.fc3cd5fd.js.map",
-    "static/js/2.f0742ee7.chunk.js": "./static/js/2.f0742ee7.chunk.js",
-    "static/js/2.f0742ee7.chunk.js.map": "./static/js/2.f0742ee7.chunk.js.map",
-    "index.html": "./index.html",
-    "static/css/main.83b5dced.chunk.css.map": "./static/css/main.83b5dced.chunk.css.map",
-    "static/js/2.f0742ee7.chunk.js.LICENSE.txt": "./static/js/2.f0742ee7.chunk.js.LICENSE.txt"
+    "main.css": "/merkle.github.io/static/css/main.309cca69.chunk.css",
+    "main.js": "/merkle.github.io/static/js/main.2b0bd656.chunk.js",
+    "main.js.map": "/merkle.github.io/static/js/main.2b0bd656.chunk.js.map",
+    "runtime-main.js": "/merkle.github.io/static/js/runtime-main.9126b727.js",
+    "runtime-main.js.map": "/merkle.github.io/static/js/runtime-main.9126b727.js.map",
+    "static/js/2.633842c9.chunk.js": "/merkle.github.io/static/js/2.633842c9.chunk.js",
+    "static/js/2.633842c9.chunk.js.map": "/merkle.github.io/static/js/2.633842c9.chunk.js.map",
+    "index.html": "/merkle.github.io/index.html",
+    "static/css/main.309cca69.chunk.css.map": "/merkle.github.io/static/css/main.309cca69.chunk.css.map",
+    "static/js/2.633842c9.chunk.js.LICENSE.txt": "/merkle.github.io/static/js/2.633842c9.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.fc3cd5fd.js",
-    "static/js/2.f0742ee7.chunk.js",
-    "static/css/main.83b5dced.chunk.css",
-    "static/js/main.83b3657d.chunk.js"
+    "static/js/runtime-main.9126b727.js",
+    "static/js/2.633842c9.chunk.js",
+    "static/css/main.309cca69.chunk.css",
+    "static/js/main.2b0bd656.chunk.js"
   ]
 }
